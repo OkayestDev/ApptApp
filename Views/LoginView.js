@@ -10,8 +10,8 @@ export default class LoginView extends React.Component {
         super(props);
         this.state = {
             //Besure to change to "" after dev, 
-            username: "patient",
-            password: "patient",
+            username: "",
+            password: "",
         }
     }
     parseJsonForUserInfo(res) {
